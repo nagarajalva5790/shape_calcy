@@ -1,17 +1,19 @@
 import React from 'react';
-import {
-    Navbar
-} from 'reactstrap';
+import {Navbar} from 'reactstrap';
+//styles
+import { Wrapper } from '../App.styles';
 
 function Header() {
     return (
-        <div>
-            <Navbar>
-                <div className="container">
-                    <img src='assets/images/shape_logo.PNG' height="60" width='100%' alt='Shape Calculator' />
-                </div>
-            </Navbar>
-        </div>
+        <Wrapper>
+            <div>
+                <Navbar>
+                    <div className="container">
+                        <img src='assets/images/shape_logo.PNG' className='imgDim' alt='Shape Calculator' />
+                    </div>
+                </Navbar>
+            </div>
+        </Wrapper>
     );
 }
 

@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import {
-    Card
-} from 'reactstrap';
+import React from 'react';
+import { Card } from 'reactstrap';
 import CalculateShape from './CalculateShape';
+
+//styles
+import { Wrapper } from '../App.styles';
 
 type Props = {
     stepNum: number;
@@ -24,11 +25,15 @@ const ShapeCard: React.FC<Props> = ({
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas.</p>
                 </div>
+
                 <div className="col-12 col-md-5 m-1">
-                    <Card style={{ width: "320px", height: "275px" }}>
-                        <CalculateShape stepNum={stepNum} callback1={callback1} callCancel={callCancel} />
-                    </Card>
+                    <Wrapper>
+                        <Card className='CardContainer'>
+                            <CalculateShape stepNum={stepNum} callback1={callback1} callCancel={callCancel} />
+                        </Card>
+                    </Wrapper>
                 </div>
+
             </div>
         </div>
     );
