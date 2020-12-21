@@ -20,7 +20,7 @@ const CalculateShape: React.FC<Props> = ({
     const [shape, setShape] = useState('');
     const [result, setResult] = useState(0);
 
-    const selectedShape = (option: any) => {
+    const selectedShape = (option: string) => {
         setShape(option);
     }
 
