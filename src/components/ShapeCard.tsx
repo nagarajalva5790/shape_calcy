@@ -46,7 +46,6 @@ const CalculateShape: React.FC<Props> = ({
             setResult(value1 * value2 * 3.14);
     }
 
-    
     const options = ['Rectangle', 'Circle', 'Square', 'Ellipse'];
 
     return (

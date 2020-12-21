@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ShapeCard from './components/ShapeCard';
 import Header from './components/Header';
 
-export const App = () => {
+const App = () => {
   const [stepNum, setStepNum] = useState(0);
 
   const nextStep = () => {
