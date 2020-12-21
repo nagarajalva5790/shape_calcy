@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/shape_calcy/static/js/main.d2d0f150.chunk.js",
+    "main.js.map": "/shape_calcy/static/js/main.d2d0f150.chunk.js.map",
+    "runtime-main.js": "/shape_calcy/static/js/runtime-main.45b939a6.js",
+    "runtime-main.js.map": "/shape_calcy/static/js/runtime-main.45b939a6.js.map",
+    "static/css/2.3cf5d70f.chunk.css": "/shape_calcy/static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.56ba2d8c.chunk.js": "/shape_calcy/static/js/2.56ba2d8c.chunk.js",
+    "static/js/2.56ba2d8c.chunk.js.map": "/shape_calcy/static/js/2.56ba2d8c.chunk.js.map",
+    "index.html": "/shape_calcy/index.html",
+    "precache-manifest.bad3afdfe1d617828da183a978d68e73.js": "/shape_calcy/precache-manifest.bad3afdfe1d617828da183a978d68e73.js",
+    "service-worker.js": "/shape_calcy/service-worker.js",
+    "static/css/2.3cf5d70f.chunk.css.map": "/shape_calcy/static/css/2.3cf5d70f.chunk.css.map",
+    "static/js/2.56ba2d8c.chunk.js.LICENSE.txt": "/shape_calcy/static/js/2.56ba2d8c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45b939a6.js",
+    "static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.56ba2d8c.chunk.js",
+    "static/js/main.d2d0f150.chunk.js"
+  ]
+}
