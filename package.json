@@ -1,5 +1,6 @@
 {
-  "name": "react-quiz",
+  "homepage": "http://nagarajalva5790.github.io/shape_calcy",
+  "name": "react-calcy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,14 +13,19 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-query": "^1.1.2",
     "@types/styled-components": "^5.1.0",
+    "bootstrap": "^4.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-popper": "^2.2.4",
     "react-query": "^2.4.3",
     "react-scripts": "3.4.1",
+    "reactstrap": "^8.7.1",
     "styled-components": "^5.1.1",
     "typescript": "^3.7.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",  
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
