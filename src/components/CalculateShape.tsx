@@ -60,15 +60,27 @@ const CalculateShape: React.FC<Props> = ({
 
         <div>
             <div>
-                {
-                    stepNum === 1 ? <p>Step {stepNum}: Select Your Shape<br />Please select the shape that you would like to calculate the area of and press the button "Go to step 2"</p> : null
-                }
-                {
-                    stepNum === 2 ? <p>Step {stepNum}: Insert your values<br />You have selected a {shape}, please input the required variables.</p> : null
-                }
-                {
-                    stepNum === 3 ? <p>Step {stepNum}: Your results<br />You have calculated the area of a {shape} with a diameter of {value1}. Below is your result:</p> : null
-                }
+                {(() => {
+                    switch (stepNum) {
+                        case 1:
+                            return (
+                                <p>Step {stepNum}: Select Your Shape<br />Please select the shape that you would like to calculate the area of and press the button "Go to step 2"</p>
+                            )
+                        case 2:
+                            return (
+                                <p>Step {stepNum}: Insert your values<br />You have selected a {shape}, please input the required variables.</p>
+                            )
+                        case 3:
+                            return (
+                                <p>Step {stepNum}: Your results<br />You have calculated the area of a {shape} with a diameter of {value1}. Below is your result:</p>
+                            )
+                        default:
+                            return (
+                                <p></p>
+                            )
+                    }
+
+                })()}
             </div>
             <Wrapper>
                 {
